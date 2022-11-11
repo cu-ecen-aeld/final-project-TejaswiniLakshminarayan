@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-# Advanced Embedded Software Development(ECEN 5713) - Final Project
-This repository contains the Buildroot environment used for the Final Project developed by Pranav, Ganesh and Tejaswini Lakshminarayan.
-=======
-# Overview
+# Advanced Embedded Software Development(ECEN 5713) - Crash Detection and Notification using BeagleBone Black
+This repository contains the Buildroot environment for the Final Project developed by Pranav Bharadwaj, Ganesh K M and Tejaswini Lakshminarayan.
 
-This repository contains assignment starter code for buildroot based assignments for the course Advanced Embedded Software Design, ECEN 5713
+## Final Project Overview
+Refer [Overview](https://github.com/cu-ecen-aeld/final-project-TejaswiniLakshminarayan/wiki/Project-Overview)
 
-It also contains instructions related to modifying your buildroot project to use with supported hardware platforms.  See [this wiki page](https://github.com/cu-ecen-5013/buildroot-assignments-base/wiki/Supported-Hardware) for details.
->>>>>>> 4755a928345b2a7844b3e5d3d863182374643047
+## Final Project Schedule
+Refer [Schedule](https://github.com/cu-ecen-aeld/final-project-TejaswiniLakshminarayan/wiki/Schedule)
