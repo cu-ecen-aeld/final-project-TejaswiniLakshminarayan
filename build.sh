@@ -2,7 +2,7 @@
 #Script to build buildroot configuration
 #Author: Siddhant Jajoo
 
-source shared.sh
+source shared_bb.sh
 
 EXTERNAL_REL_BUILDROOT=../base_external
 git submodule init

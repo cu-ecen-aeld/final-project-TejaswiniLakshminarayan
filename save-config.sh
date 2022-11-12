@@ -3,7 +3,7 @@
 #Author: Siddhant Jajoo.
 
 cd `dirname $0`
-source shared.sh
+source shared_bb.sh
 mkdir -p base_external/configs/
 make -C buildroot savedefconfig BR2_DEFCONFIG=${AESD_MODIFIED_DEFCONFIG_REL_BUILDROOT}
 
