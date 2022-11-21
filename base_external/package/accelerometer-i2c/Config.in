@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_ACCELEROMETER_I2C
+	bool "accelerometer-i2c"
+	help
+	  Includes the i2c_userspace executable in the kernel image.
+	  Used to understand buildroot external trees and package builds.
