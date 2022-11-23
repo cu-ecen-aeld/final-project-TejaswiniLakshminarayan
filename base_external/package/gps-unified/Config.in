@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_GPS_UNIFIED
+	bool "gps-unified"
+	help
+	  Includes the gps-unified executable in the kernel image.
+	  Used to understand buildroot external trees and package builds.
