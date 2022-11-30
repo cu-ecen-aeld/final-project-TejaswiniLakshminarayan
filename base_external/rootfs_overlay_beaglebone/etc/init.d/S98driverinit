@@ -1,0 +1,18 @@
+#!/bin/sh 
+ 
+case "$1" in 
+	start) 
+		echo "Loading modules"
+                /usr/bin/hw_serial_load
+				modprobe hello
+		;; 
+	stop) 
+		echo "Unloading modules" 
+				/usr/bin/hw_serial_unload
+				rmmod hello
+		;; 
+	*) 
+		echo "Usage: $0 {start|stop}" 
+		exit 1 
+esac
+exit 0
