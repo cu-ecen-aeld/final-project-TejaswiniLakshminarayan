@@ -6,7 +6,7 @@
 ##############################################################
 $(eval $(kernel-module))
 #Reference to the gps userspace code(Ganesh's repo)
-GPS_UNIFIED_VERSION = c0b5db0b129aa7086037bfaa8e45542b6adb8e43
+GPS_UNIFIED_VERSION = 49cb63820f5263ec7eaa588e10e511c7892c2fbf
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
